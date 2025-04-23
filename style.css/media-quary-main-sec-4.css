@@ -1,0 +1,9 @@
+@media(max-width:767px){
+  .main-sec-4-header .global{
+    width:30rem;
+    margin-bottom:6rem;
+  }
+  .main-sec-4-header .sponsor{
+    width:28rem;
+  }
+}

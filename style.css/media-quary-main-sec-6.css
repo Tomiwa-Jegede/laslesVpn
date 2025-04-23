@@ -1,0 +1,10 @@
+@media(max-width:767px){
+  .main-sec-6{
+    display:flex;
+    flex-direction:column;
+  }
+  .main-sec-6 .extra{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+  }
+}

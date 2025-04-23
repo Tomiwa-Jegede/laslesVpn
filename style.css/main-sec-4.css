@@ -1,0 +1,26 @@
+.main-sec-4-header{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  padding:6rem;
+  text-align:center;
+}
+.main-sec-4-header .global{
+  margin-bottom:6rem;
+}
+.main-sec-4-header h1{
+  color:var(--text-primary-color);
+  font-weight: 500;
+  font-size:clamp(1.7rem, 3vw, 3.3rem);
+  line-height:clamp(2rem, 5vw, 5rem);
+  margin-bottom:1rem;
+}
+.main-sec-4-header h5{
+  color:var(--text-sec-color);
+  font-size:clamp(1rem, 1vw, 3.3rem);
+  font-weight: 200;
+  line-height:clamp(1.5rem, 1vw, 2rem);
+  margin-bottom:clamp(2rem,1vw,3rem);
+  text-align:center;
+}
