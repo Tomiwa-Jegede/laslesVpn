@@ -1,10 +1,31 @@
 @media(max-width:767px){
   .main-sec-5 .subscribe-now{
+
     position:absolute;
     transform:translateX(-2%);
     left:.6rem;
     right:.6rem;
     border-radius:.5rem;
-    bottom:-10rem;
+    bottom:-3.5rem;
+  }
+}
+@media(min-width:768px){
+  .main-sec-5 .subscribe-now{
+    position:absolute;
+    transform:translateX(-2%);
+    left:.6rem;
+    right:.6rem;
+    border-radius:.5rem;
+    bottom:-8rem;
+  }
+}
+@media(min-width:1024px){
+  .main-sec-5 .subscribe-now{
+    position:absolute;
+    transform:translateX(-2%);
+    left:.6rem;
+    right:.6rem;
+    border-radius:.5rem;
+    bottom:-14rem;
   }
 }

@@ -5,10 +5,6 @@
   --bg-primary-color: #ffffff;
   --bg-sec-color: #4f566509;
 }
-body {
-  margin: 0;
-  align-items: center;
-}
 .main-sec-1 {
   display: flex;
   align-items: center;

@@ -1,9 +1,11 @@
-*{
+
+body{
   margin:0;
   font-family: "Inter", sans-serif;
-}
-body{
-  margin:2rem 8rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 .logo{
   margin-left:3rem;
