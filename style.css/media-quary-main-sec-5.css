@@ -1,13 +1,10 @@
 @media(max-width:767px){
-  .main-sec-5 img{
-    width:28rem;
-  }
   .main-sec-5 .subscribe-now{
     position:absolute;
+    transform:translateX(-2%);
     left:.6rem;
     right:.6rem;
     border-radius:.5rem;
     bottom:-10rem;
-    width:28rem;
   }
 }

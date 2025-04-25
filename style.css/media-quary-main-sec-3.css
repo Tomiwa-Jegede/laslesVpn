@@ -1,9 +1,35 @@
-@media(max-width:767px){
-  .main-sec-3-body{
-    display:grid;
-    grid-template-columns:repeat(1,1fr);
-    gap:3rem;
-    justify-content:space-between;
+@media (max-width: 767px) {
+  .main-sec-3-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: space-between;
   }
-  
+  .main-sec-3-body div button {
+    font-size: 0.7rem;
+    padding: 0.5rem 3rem;
+    margin-bottom: 2rem;
+  }
+  .main-sec-3-body div {
+    padding: 0.5rem;
+  }
+  .main-sec-3-body div img:nth-child(1) {
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  .main-sec-3-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    justify-content: space-between;
+  }
+}
+@media(min-width:1024px){
+  .main-sec-3-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:3rem;
+    justify-content: space-between;
+  }
 }

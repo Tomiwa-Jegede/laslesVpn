@@ -1,11 +1,22 @@
 .main-sec-5{
   position:relative;
-  width:30rem;
 }
+
 .main-sec-5 .subscribe-now{
   position:absolute;
-  left:10rem;
-  right:10rem;
+  transform:translateX(-100%);
   border-radius:.5rem;
   bottom:-15rem;
+}
+.main-sec-5 img{
+  width:100%;
+}
+.main-sec-5{
+  width:90%;
+}
+.main-sec-5-container{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }

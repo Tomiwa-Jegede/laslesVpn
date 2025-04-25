@@ -22,18 +22,4 @@ ul{
   justify-content:space-between;
   color:#4F5665;
 }
-.sign-up-container{
-  display:flex;
-  width:20%;
-  justify-content:space-between;
-  align-items:center;
-  margin-right:3rem;
-}
-.sign-up-container button{
-padding:1rem;
-width:10rem;
-border-radius:2rem;
-border:#F53855 solid 1px;
-background-color:white;
-color:#F53855;
-}
+
